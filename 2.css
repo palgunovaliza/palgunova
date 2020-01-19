@@ -1,0 +1,107 @@
+@import "reset.css";
+
+/* * {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+body {
+background-color: black;
+display: flex;
+align-items: center;
+
+}
+
+h1 {
+  position: absolute;
+  font-size: 60px;
+  color: white;
+  top: 120px;
+  left: 60px;
+
+}
+
+.img1 {
+  position: absolute;
+  width: 1060px;
+  height: 1497px;
+  padding: 290px 60px;
+
+
+}
+
+.img2 {
+  position: absolute;
+  width: 1060px;
+  height: 1571px;
+  top: 290px;
+  left: 1360px;
+  /* padding: 290px 1370px 290px 1646px; */
+}
+
+.img3 {
+  position: absolute;
+  width: 1060px;
+  height: 1571px;
+  top: 290px;
+  left: 2662px;
+  /* padding: 290px 2140px 290px 2662px; */
+
+}
+
+.img4 {
+  position: absolute;
+  width: 1060px;
+  height: 1571px;
+  top: 290px;
+  left: 3995px;
+
+}
+
+
+.img5 {
+  position: absolute;
+  width: 1060px;
+  height: 1571px;
+  top: 290px;
+  left: 5334px;
+
+}
+
+.img:hover {
+    animation-play-state: paused;
+}
+
+.img {
+  position: absolute;
+  top: 290px;
+  left: 0;
+  width: 1160px;
+  height: 1597px;
+  perspective: 2500px;
+}
+
+.crug img{
+  position: absolute;
+  width: 1160px;
+  height: 1597px;
+  animation: rotation 10s infinite linear;
+}
+
+
+
+/*
+.crug img:nth-child(1) {
+  transform: rotateY(0deg) translateZ(20px);
+} */
+
+
+@keyframes rotation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
