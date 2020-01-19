@@ -59,16 +59,6 @@ h1 {
   left: 5354px;
   border: 12px solid #ffffff;
 }
-
-.img {
-  overflow-x: scroll;
-  width: 320px; /* Ширина блока */
-  height: 586px; /* Высота блока */
-  padding: 5px; /* Поля вокруг текста */
-  border: solid 1px black; /* Параметры рамки */
-  white-space: nowrap; /* Запрещаем перенос строк */
- }
- 
 /*
 @media (min-width: 768px) and (max-width: 1024px) {
   h1 {
@@ -137,4 +127,4 @@ h1 {
 
 
 
-} */
+} */ 
