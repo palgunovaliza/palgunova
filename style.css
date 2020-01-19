@@ -68,7 +68,8 @@ h1 {
   border: solid 1px black; /* Параметры рамки */
   white-space: nowrap; /* Запрещаем перенос строк */
  }
-
+ 
+/*
 @media (min-width: 768px) and (max-width: 1024px) {
   h1 {
     font-size: 100px;
@@ -136,4 +137,4 @@ h1 {
 
 
 
-}
+} */
